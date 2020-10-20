@@ -1,0 +1,9 @@
+{
+    "integrationFolder": "specs",
+    "baseUrl": "https://applications.eu-1.celonis.cloud",
+    "env": {
+        "email": "srupam7@gmail.com",
+        "password": ""
+    },
+    "video": false
+}
