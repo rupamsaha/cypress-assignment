@@ -1,10 +1,10 @@
 # Cypress Assignment
 
-This is a Cypress project that automates Celonis website
+This is a Cypress project that automates Celonis website. The repository includes a word doc "CelonisQAChallengeSolution.docx" that contains the solution (Test cases and execution results) for point 2 and 3 from the QA challenge
 
 ## Framework Details
 
-1. It is using Page Object Model as a design pattern
+1. The frameowrk uses Page Object Model as design pattern
 2. Base URL, Username is stored in cypress.json config file
 3. Password is passed as a Cypress environment variable. Should be configured when run on a CI server like Jenkins/Gitlab
 4. Hardcoded string are stored in hash in a separate file under stubData folder
@@ -28,4 +28,10 @@ Run the following command to execute the tests
 
 ```bash
 CYPRESS_password=<password> npm run run:chrome
+```
+
+Run the following command to run Cypress locally
+
+```bash
+CYPRESS_password=<password> npm run open
 ```
